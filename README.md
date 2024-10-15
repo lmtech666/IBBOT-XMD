@@ -60,54 +60,38 @@
    <br>
 <a href='https://IBBOT-XMD-web.vercel.app/render' target="_blank"><img alt='Deploy' src='https://img.shields.io/badge/-Deploy-black?style=for-the-badge&logo=Render&logoColor=white'/></a>
 
-3. Tutorial
-   <br>
-<a href="https://youtu.be/@ai-bot-md?si=Suz_JfA2TRmJSVVM"><img align="center" src="https://img.shields.io/badge/-Watch-black?style=for-the-badge&logo=Render&logoColor=white" /></a>
- </p>
- </br>
- 
-### RUN ON VPS/TERMUX
+WORLD OF TECHNOLOGY OFFICIAL WEBSITE 2024
+--------------------------------------------------------------------------------------------
 
-1. Install packages
-   ```
-   apt update && apt upgrade -y && pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh
-   ./start-ubuntu.sh
-   apt update && apt upgrade
-   apt install sudo
-   sudo apt install ffmpeg
-   sudo apt install imagemagick
-   sudo apt install yarn
-   sudo apt install git
-   sudo apt install curl
-   sudo apt -y remove nodejs
-   curl -fsSl https://deb.nodesource.com/setup_lts.x | sudo bash - && sudo apt -y install nodejs
-   ```
-2. installation
-   ```
-   git clone https://github.com/lmtech666/IBBOT-XMD
-   cd IBBOT-XMD
-4. Configuration
-   ```
-   echo "TERMUX = true
-   SESSION_ID = Tcronenfhytrft
-   PREFIX = .
-   READ_MSG = false
-   ALWAYS_ONLINE = false
-   REJECT_CALL = false
-   LOG_MSG = true
-   SUDO = 263716394979
-   AUTO_STATUS_VIEW = true" > config.env
-   ```
-- Start
-  ```
-  npm install
-  npm start
-  ```
-- Stop
-  ```
-  pm2 delete izumi
-    
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+🔥TOPIC 97 ==> MULTIPLE WHATSAPP BOT 👇👇
 
-#### THANKS TO
-- [ Mask-Ser💗](https://github.com/mask-sir) <br>
+   💌INVISIBLE BROTHER'S BOT V1.9.9 ==> ( IBB-XMD ) 🫂
+-------------------------------      ----------------------------------------------------
+
+🔥BOT REPO ==>⌛
+https://github.com/lmtech666/INVISIBLE-BROTHER-S-V1.9.-9❤️
+
+⌛SCAN SESSION_ID USING PAIR CODE ==>⌛ https://replit.com/@cartoonboyzfami/IBBOT-XMD❤️
+
+⌛YOUTUBE TUTORIAL ==>👌https://YouTube.com/@AI-BOT-MD ❤️
+
+👇👇JOIN OUR TELEGRAM CHANNEL'S👇👇
+
+🔥BOT CHANNEL 👉https://t.me/ai_bot_md
+
+🔥 SCRIPT GHOST TECH👻 👉https://t.me/scriptghost404
+
+🔥 KEKETSO WRLD NET 👉https://t.me/keketsonet
+
+🔥 TBA DI BWOY TECH 👉https://t.me/tbadibwoytechofficial9
+
+🔥 WORLD OF TECHNOLOGY 👉 https://t.me/tcronebhackx
+
+🙌🌍👉DESIGNED BY ADRIEL @ushman.OFFICIAL ==>+263 71 255 3314
+
+👐WEB CODE BY TCRONEB~HACKX 😉
+---------------------------------------------------------------------
+
+
+
+
