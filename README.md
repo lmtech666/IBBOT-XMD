@@ -59,39 +59,3 @@
 2. Deploy on Render
    <br>
 <a href='https://IBBOT-XMD-web.vercel.app/render' target="_blank"><img alt='Deploy' src='https://img.shields.io/badge/-Deploy-black?style=for-the-badge&logo=Render&logoColor=white'/></a>
-
-WORLD OF TECHNOLOGY OFFICIAL WEBSITE 2024
---------------------------------------------------------------------------------------------
-
-🔥TOPIC 97 ==> MULTIPLE WHATSAPP BOT 👇👇
-
-   💌INVISIBLE BROTHER'S BOT V1.9.9 ==> ( IBB-XMD ) 🫂
--------------------------------      ----------------------------------------------------
-
-🔥BOT REPO ==>⌛
-https://github.com/lmtech666/INVISIBLE-BROTHER-S-V1.9.-9❤️
-
-⌛SCAN SESSION_ID USING PAIR CODE ==>⌛ https://replit.com/@cartoonboyzfami/IBBOT-XMD❤️
-
-⌛YOUTUBE TUTORIAL ==>👌https://YouTube.com/@AI-BOT-MD ❤️
-
-👇👇JOIN OUR TELEGRAM CHANNEL'S👇👇
-
-🔥BOT CHANNEL 👉https://t.me/ai_bot_md
-
-🔥 SCRIPT GHOST TECH👻 👉https://t.me/scriptghost404
-
-🔥 KEKETSO WRLD NET 👉https://t.me/keketsonet
-
-🔥 TBA DI BWOY TECH 👉https://t.me/tbadibwoytechofficial9
-
-🔥 WORLD OF TECHNOLOGY 👉 https://t.me/tcronebhackx
-
-🙌🌍👉DESIGNED BY ADRIEL @ushman.OFFICIAL ==>+263 71 255 3314
-
-👐WEB CODE BY TCRONEB~HACKX 😉
----------------------------------------------------------------------
-
-
-
-
