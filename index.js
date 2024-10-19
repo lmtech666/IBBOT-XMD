@@ -70,20 +70,20 @@ async function start() {
     try {
         const { state, saveCreds } = await useMultiFileAuthState(sessionDir);
         const { version, isLatest } = await fetchLatestBaileysVersion();
-        console.log(`👨‍💻 HANSAMAL-MD using WA v${version.join('.')}, isLatest: ${isLatest}`);
+        console.log(`👨‍💻 IBBOT-XMD using WA v${version.join('.')}, isLatest: ${isLatest}`);
         
         const Matrix = makeWASocket({
             version,
             logger: pino({ level: 'silent' }),
             printQRInTerminal: useQR,
-            browser: ["HANSAMAL-MD", "safari", "3.3"],
+            browser: ["IBB-XMD", "safari", "3.3"],
             auth: state,
             getMessage: async (key) => {
                 if (store) {
                     const msg = await store.loadMessage(key.remoteJid, key.id);
                     return msg.message || undefined;
                 }
-                return { conversation: "HANSAMAL-MD whatsapp user bot" };
+                return { conversation: "IBB-XMD whatsapp user bot" };
             }
         });
 
@@ -95,8 +95,46 @@ async function start() {
                 }
             } else if (connection === 'open') {
                 if (initialConnection) {
-                    console.log(chalk.green("📍 HANSAMAL-MD CONNECTED Successful️ ✅"));
-                    Matrix.sendMessage(Matrix.user.id, { text: `📍HANSAMAL-MD CONNECTED Successful️ ✅` });
+                    console.log(chalk.green("📍 *_TCRONEB~HACKX*
+
+*_IBBOT-XMD 🤍_*
+______________________________________
+╔════◇
+║ *『 WOW YOU'VE CHOSEN INVISIBLE BROTHER'S V1.9. 9 XMD 』*
+║ _You Have Completed the  Deploy a Whatsapp Bot._
+╚════════════════════════╝
+╔═════◇
+║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
+║❒ *Ytube:* _youtube.com/@AI-BOT-MD_
+║❒ *Owner:* _https://wa.me/26371639497 _
+║
+║❒ *WaGroup:* _https://chat.whatsapp.com/LqD6utmLF699JIW9R82O95_
+║❒ *WaChannel:* _https://whatsapp.com/channel/0029Vafg8mVLtOj6eAvlZO0w_
+║❒ 
+╚════════════════════════╝
+_____________________________________
+
+_CONNECTED & START ENJOYING IT ✅"));
+                    Matrix.sendMessage(Matrix.user.id, { text: `*_TCRONEB~HACKX*
+
+*_IBBOT-XMD 🤍_*
+______________________________________
+╔════◇
+║ *『 WOW YOU'VE CHOSEN INVISIBLE BROTHER'S V1.9. 9 XMD 』*
+║ _You Have Completed the  Deploy a Whatsapp Bot._
+╚════════════════════════╝
+╔═════◇
+║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
+║❒ *Ytube:* _youtube.com/@AI-BOT-MD_
+║❒ *Owner:* _https://wa.me/26371639497 _
+║
+║❒ *WaGroup:* _https://chat.whatsapp.com/LqD6utmLF699JIW9R82O95_
+║❒ *WaChannel:* _https://whatsapp.com/channel/0029Vafg8mVLtOj6eAvlZO0w_
+║❒ 
+╚════════════════════════╝
+_____________________________________
+
+_CONNECTED & START ENJOYING IT_✅` });
                     initialConnection = false;
                 } else {
                     console.log(chalk.blue("♻️ Connection reestablished after restart."));
