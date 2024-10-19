@@ -10,7 +10,7 @@ const searchRepo = async (m, Matrix) => {
   const validCommands = ['repo', 'sc', 'script'];
 
   if (validCommands.includes(cmd)) {
-    const repoUrl = `https://api.github.com/repos/lmtech666/INVISIBLE-BROTHERS-V1.9.9`;
+    const repoUrl = `https://api.github.com/repos/cobrs11/HANSAMAL-MD`;
     
     await handleRepoCommand(m, Matrix, repoUrl);
   }
@@ -52,12 +52,12 @@ const handleRepoCommand = async (m, Matrix, repoUrl) => {
               text: messageText,
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: '© ᴘᴏᴡᴇʀᴇᴅ ʙʏ IBBOT-XMD',
+              text: '© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ',
             }),
             header: proto.Message.InteractiveMessage.Header.create({
               ...(await prepareWAMessageMedia({
                 image: {
-                  url: 'https://files.catbox.moe/2kn4yr.png',
+                  url: 'https://telegra.ph/file/44826e95f6e863548e408.jpg',
                 },
               }, { upload: Matrix.waUploadToServer })),
               title: '',
@@ -71,7 +71,7 @@ const handleRepoCommand = async (m, Matrix, repoUrl) => {
                   name: 'cta_url',
                   buttonParamsJson: JSON.stringify({
                     display_text: 'Contact Owner',
-                    url: 'https://wa.me/+2637790 42976?text=HI_TCRONEB_BOT_OWNER',
+                    url: 'https://wa.me/+94711262551?text=HI_HANSAMAL_BOT_OWNER',
                   }),
                 },
                 {

@@ -36,9 +36,9 @@ const seconds = Math.floor(uptime % 60); // Calculate seconds
 const uptimeMessage = `*I am alive now since ${day}d ${hours}h ${minutes}m ${seconds}s*`;
 const runMessage = `*☀️ ${day} Day*\n*🕐 ${hours} Hour*\n*⏰ ${minutes} Minutes*\n*⏱️ ${seconds} Seconds*\n`;
 
-const xtime = moment.tz("Africa/Harare").format("HH:mm:ss");
-const xdate = moment.tz("Africa/Harare").format("DD/MM/YYYY");
-const time2 = moment().tz("Africa/Harare").format("HH:mm:ss");
+const xtime = moment.tz("Asia/Colombo").format("HH:mm:ss");
+const xdate = moment.tz("Asia/Colombo").format("DD/MM/YYYY");
+const time2 = moment().tz("Asia/Colombo").format("HH:mm:ss");
 let pushwish = "";
 
 if (time2 < "05:00:00") {
@@ -90,17 +90,17 @@ let mode = ethix.public ? 'public' : 'private';
           interactiveMessage: proto.Message.InteractiveMessage.create({
             body: proto.Message.InteractiveMessage.Body.create({
               text: `╭─────────────━┈⊷
-│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *IBBOT-XMD*
-│📍 ᴠᴇʀꜱɪᴏɴ: 1.9.9
-│👨‍💻 ᴏᴡɴᴇʀ : *TCRONEB~HACKX*      
+│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *HANSAMAL-MD*
+│📍 ᴠᴇʀꜱɪᴏɴ: 3.0.2
+│👨‍💻 ᴏᴡɴᴇʀ : *IMALKA*      
 │👤 ɴᴜᴍʙᴇʀ: 94711262551
-│📡 ᴘʟᴀᴛғᴏʀᴍ: *${WORLD_OF_TECH()}*
+│📡 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
 │🛡 ᴍᴏᴅᴇ: *${mode}*
 │💫 ᴘʀᴇғɪx: *[Multi-Prefix]*
 ╰─────────────━┈⊷ `
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: "© Powered By IBBOT-XMD"
+              text: "© Powered By HANSAMAL-MD"
             }),
             header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./src/HANSAMAL.jpg')}, { upload: Matrix.waUploadToServer})), 
@@ -116,67 +116,67 @@ let mode = ethix.public ? 'public' : 'private';
                   "buttonParamsJson": `{"title":"ᴛᴀᴘ ʜᴇʀᴇ",
                  "sections":
                    [{
-                    "title":"IBBOT-XMD ᴍᴇɴᴜ",
+                    "title":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ ᴍᴇɴᴜ",
                     "highlight_label":"ᴀʟʟ ᴍᴇɴᴜ",
                     "rows":[
                       {
                        "header":"",
                        "title":"ᴀʟʟ ᴍᴇɴᴜ",
-                       "description":"IBBOT-XMD",
+                       "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
                        "id":"View All Menu"
                       },
                       {
                         "header":"",
                         "title":"ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴇɴᴜ",
-                        "description":"IBBOT-XMD",
+                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
                         "id":"Downloader Menu"
                       },
                       {
                         "header":"",
                         "title":"ɢʀᴏᴜᴘ ᴍᴇɴᴜ",
-                        "description":"IBBOT-XMD",
+                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
                         "id":"Group Menu"
                       },
                       {
                         "header":"",
                         "title":"ᴛᴏᴏʟ ᴍᴇɴᴜ",
-                        "description":"IBBOT-XMD",
+                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
                         "id":"Tool Menu"
                       },
                       {
                         "header":"",
                         "title":"ᴍᴀɪɴ ᴍᴇɴᴜ",
-                        "description":"IBBOT-XMD",
+                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
                         "id":"Main Menu"
                       },
                      {
                         "header":"",
                         "title":"ᴏᴡɴᴇʀ ᴍᴇɴᴜ",
-                        "description":"IBBOT-XMD",
+                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
                         "id":"Owner Menu"
                       },
                       {
                         "header":"",
                         "title":"ᴀɪ ᴍᴇɴᴜ",
-                        "description":"IBBOT-XMD",
+                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
                         "id":"Ai Menu"
                       },
                       {
                         "header":"",
                         "title":"ꜱᴇᴀʀᴄʜ ᴍᴇɴᴜ",
-                        "description":"IBBOT-XMD",
+                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
                         "id":"Search Menu"
                       },
                       {
                         "header":"",
                         "title":"ꜱᴛᴀʟᴋ ᴍᴇɴᴜ",
-                        "description":"IBBOT-XMD",
+                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
                         "id":"Stalk Menu"
                       },
                       {
                         "header":"",
                         "title":"ᴄᴏɴᴠᴇʀᴛᴇʀ ᴍᴇɴᴜ",
-                        "description":"IBBOT-XMD",
+                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
                         "id":"Converter Menu"
                       }
                     ]}
@@ -190,7 +190,7 @@ let mode = ethix.public ? 'public' : 'private';
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "IBBOT-XMD",
+                  newsletterName: "HANSAMAL-MD",
                   serverMessageId: 143
                 }
               }
@@ -207,11 +207,11 @@ let mode = ethix.public ? 'public' : 'private';
         const mode = process.env.MODE;
         const str = `hey ${m.pushName} ${pushwish}
 ╭─────────────━┈⊷
-│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *IBBOT-XMD*
-│📍 ᴠᴇʀꜱɪᴏɴ: 1.9.9
-│👨‍💻 ᴏᴡɴᴇʀ : *TCRONEB~HACKX*      
-│👤 ɴᴜᴍʙᴇʀ: 263779042976 
-│💻 ᴘʟᴀᴛғᴏʀᴍ: *${world_of_tech()}*
+│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *HANSAMAL-MD*
+│📍 ᴠᴇʀꜱɪᴏɴ: 3.0.2
+│👨‍💻 ᴏᴡɴᴇʀ : *IMALKA*      
+│👤 ɴᴜᴍʙᴇʀ: 94711262551
+│💻 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
 │🛡 ᴍᴏᴅᴇ: *${mode}*
 │💫 ᴘʀᴇғɪx: *[Multi-Prefix]*
 ╰─────────────━┈⊷ 
@@ -323,8 +323,8 @@ let mode = ethix.public ? 'public' : 'private';
             },
             message: {
                 contactMessage: {
-                    displayName: `IBBOT-XMD`,
-                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'IBB-XMD'\nitem1.TEL;waid=${
+                    displayName: `HANSAMAL-MD`,
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'HANSAMAL-MD'\nitem1.TEL;waid=${
                         m.sender.split("@")[0]
                     }:${
                         m.sender.split("@")[0]
@@ -333,7 +333,7 @@ let mode = ethix.public ? 'public' : 'private';
             }
         };
        let { key } = await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/Polish_20241010_162117445.png'), 
+  image: fs.readFileSync('./src/HANSAMAL.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -341,7 +341,7 @@ let mode = ethix.public ? 'public' : 'private';
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "IBBOT-XMD",
+                  newsletterName: "HANSAMAL-MD",
                   serverMessageId: 143
                 }
               }
@@ -372,7 +372,7 @@ let mode = ethix.public ? 'public' : 'private';
 ┃✰ ${prefix}𝚃𝚒𝚔𝚝𝚘𝚔
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/Polish_20241010_162117445.png'), 
+  image: fs.readFileSync('./src/HANSAMAL.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -380,7 +380,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "IBBOT-XMD",
+                  newsletterName: "HANSAMAL-MD",
                   serverMessageId: 143
                 }
               }
@@ -413,7 +413,7 @@ await Matrix.sendMessage(m.from, {
 ╰━━━━━━━━━━━━━━━⪼
      `
      await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/Polish_20241010_162117445.png'), 
+  image: fs.readFileSync('./src/HANSAMAL.jpg'), 
   caption: str, 
   contextInfo: {
     mentionedJid: [m.sender], 
@@ -438,7 +438,7 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝙸𝚗𝚏𝚘𝚋𝚘𝚝
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/Polish_20241010_162117445.png'), 
+  image: fs.readFileSync('./src/HANSAMAL.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -446,7 +446,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "IBBOT-XMD",
+                  newsletterName: "HANSAMAL-MD",
                   serverMessageId: 143
                 }
               }
@@ -477,7 +477,7 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝚊𝚞𝚝𝚘𝚜𝚟𝚒𝚎𝚠
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/Polish_20241010_162117445.png'), 
+  image: fs.readFileSync('./src/HANSAMAL.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -485,7 +485,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "IBBOT-XMD",
+                  newsletterName: "HANSAMAL-MD",
                   serverMessageId: 143
                 }
               }
@@ -513,7 +513,7 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝙻𝚢𝚛𝚒𝚌𝚜
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/Polish_20241010_162117445.png'), 
+  image: fs.readFileSync('./src/HANSAMAL.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -521,7 +521,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "IBBOT-XMD",
+                  newsletterName: "HANSAMAL-MD",
                   serverMessageId: 143
                 }
               }
@@ -541,7 +541,7 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝙶𝚒𝚝𝚑𝚞𝚋𝚂𝚝𝚊𝚕𝚔
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/Polish_20241010_162117445.png'), 
+  image: fs.readFileSync('./src/HANSAMAL.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -549,7 +549,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "IBBOT-XMD",
+                  newsletterName: "HANSAMAL-MD",
                   serverMessageId: 143
                 }
               }
@@ -572,7 +572,7 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝚃𝚝𝚜
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/Polish_20241010_162117445.png'), 
+  image: fs.readFileSync('./src/HANSAMAL.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -580,7 +580,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "IBBOT-XMD",
+                  newsletterName: "HANSAMAL-MD",
                   serverMessageId: 143
                 }
               }
@@ -604,7 +604,7 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝙶𝚎𝚖𝚒𝚗𝚒
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/Polish_20241010_162117445.png'), 
+  image: fs.readFileSync('./src/HANSAMAL.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -612,7 +612,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "IBBOT-XMD",
+                  newsletterName: "HANSAMAL-MD",
                   serverMessageId: 143
                 }
               }
@@ -637,7 +637,7 @@ await Matrix.sendMessage(m.from, {
 ╰━━━━━━━━━━━━━━━⪼
      `
      await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/Polish_20241010_162117445.png'), 
+  image: fs.readFileSync('./src/HANSAMAL.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -645,7 +645,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "IBBOT-XMD",
+                  newsletterName: "HANSAMAL-MD",
                   serverMessageId: 143
                 }
               }
