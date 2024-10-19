@@ -95,8 +95,8 @@ async function start() {
                 }
             } else if (connection === 'open') {
                 if (initialConnection) {
-                    console.log(chalk.green("📍 HANSAMAL-MD CONNECTED Successful️ ✅"));
-                    Matrix.sendMessage(Matrix.user.id, { text: `📍HANSAMAL-MD CONNECTED Successful️ ✅` });
+                    console.log(chalk.green("📍 lBBOT-XMD CONNECTED Successful️ 🔥👉⌛"));
+                    Matrix.sendMessage(Matrix.user.id, { text: `📍lBBOT-XMD CONNECTED Successful️ 🔥👉⌛` });
                     initialConnection = false;
                 } else {
                     console.log(chalk.blue("♻️ Connection reestablished after restart."));
