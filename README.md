@@ -1,17 +1,16 @@
-
 <a><img src='https://files.catbox.moe/4c1x3e.png'/></a>
 
 ## IBBOT-XMD a simple Multi device Whatsapp Bot   
 ### Setup 
 1. Get Session
    <br>
-<a href='https://www.mediafire.com/file/iogcejb8629yv63/base.apk/file' target="_blank"><img alt='Session' src='https://img.shields.io/badge/Session-V3100000?style=for-the-badge&logo=render&logoColor=white&labelColor=black&color=black'/></a>
+<a href='https://replit.com/@cartoonboyzfami/IBBOT-XMD-1' target="_blank"><img alt='Session' src='https://img.shields.io/badge/Session-V3100000?style=for-the-badge&logo=render&logoColor=white&labelColor=black&color=black'/></a>
 
  
 ### For getting session in Indian number
 1.  Termux
     <br>
-<a href='https://replit.com/@cartoonboyzfami/IBBOT-XMD-1' target="_blank"><img alt='Install Termux' src='https://img.shields.io/badge/Install Termux-V2100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+<a href='https://www.mediafire.com/file/iogcejb8629yv63/base.apk/file' target="_blank"><img alt='Install Termux' src='https://img.shields.io/badge/Install Termux-V2100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 2. download termux and run the command
     ```
