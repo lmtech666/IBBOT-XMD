@@ -26,7 +26,7 @@ const alive = async (m, Matrix) => {
     image.print(font, x, y, timeString, width, Jimp.HORIZONTAL_ALIGN_CENTER | Jimp.VERTICAL_ALIGN_MIDDLE);
     const buffer = await image.getBufferAsync(Jimp.MIME_PNG);
     
-    const uptimeMessage = `*👨‍💻 HANSAMAL-MD Status Overview📱*
+    const uptimeMessage = `*👨‍💻 IBBOT-XMD Status Overview📱*
 _________________________________________
 
 *📆 ${days} Day(s)*
@@ -65,7 +65,7 @@ _________________________________________
               text: uptimeMessage
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: "© ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ"
+              text: "© IBBOT-XMD"
             }),
             header: proto.Message.InteractiveMessage.Header.create({
               ...(await prepareWAMessageMedia({ image: buffer }, { upload: Matrix.waUploadToServer })),
@@ -83,7 +83,7 @@ _________________________________________
               isForwarded: true,
               forwardedNewsletterMessageInfo: {
                 newsletterJid: '1203632@newsletter',
-                newsletterName: "HANSAMAL-MD",
+                newsletterName: "IBBOT-XMD",
                 serverMessageId: 143
               }
             }
