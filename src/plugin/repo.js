@@ -10,7 +10,7 @@ const searchRepo = async (m, Matrix) => {
   const validCommands = ['repo', 'sc', 'script'];
 
   if (validCommands.includes(cmd)) {
-    const repoUrl = `https://api.github.com/repos/cobrs11/HANSAMAL-MD`;
+    const repoUrl = `https://api.github.com/repos/lmtech666/IBBOT-XMD`;
     
     await handleRepoCommand(m, Matrix, repoUrl);
   }
@@ -37,7 +37,7 @@ const handleRepoCommand = async (m, Matrix, repoUrl) => {
 *_Forks:_* ${forks_count}
 *_Created At:_* ${new Date(created_at).toLocaleDateString()}
 *_Last Updated:_* ${new Date(updated_at).toLocaleDateString()}
-*_Owner:_* ɪᴍᴀʟᴋᴀ-ʜᴀɴꜱᴀᴍᴀʟ
+*_Owner:_* TCRONEB HACKX
     `;
 
     const repoMessage = generateWAMessageFromContent(m.from, {
@@ -52,12 +52,12 @@ const handleRepoCommand = async (m, Matrix, repoUrl) => {
               text: messageText,
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: '© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ',
+              text: '© ᴘᴏᴡᴇʀᴇᴅ ʙʏ lBBOT-XMD',
             }),
             header: proto.Message.InteractiveMessage.Header.create({
               ...(await prepareWAMessageMedia({
                 image: {
-                  url: 'https://telegra.ph/file/44826e95f6e863548e408.jpg',
+                  url: 'https://files.catbox.moe/o34mhl.png',
                 },
               }, { upload: Matrix.waUploadToServer })),
               title: '',
@@ -71,21 +71,21 @@ const handleRepoCommand = async (m, Matrix, repoUrl) => {
                   name: 'cta_url',
                   buttonParamsJson: JSON.stringify({
                     display_text: 'Contact Owner',
-                    url: 'https://wa.me/+94711262551?text=HI_HANSAMAL_BOT_OWNER',
+                    url: 'https://wa.me/+263716394979?text=HI_IBBOT-XMD_BOT_OWNER',
                   }),
                 },
                 {
                   name: 'cta_url',
                   buttonParamsJson: JSON.stringify({
                     display_text: 'Click Here To Fork',
-                    url: 'https://github.com/cobrs11/HANSAMAL-MD/fork',
+                    url: 'https://github.com/lmtech666/IBBOT-XMD/fork',
                   }),
                 },
                 {
                   name: 'cta_url',
                   buttonParamsJson: JSON.stringify({
-                    display_text: 'Join Our Community',
-                    url: 'https://www.whatsapp.com/channel/0029VajrLTH30LKXN5O5Zj04',
+                    display_text: 'Join Our Telegram ',
+                    url: 'https://t.me/tcronebhackx',
                   }),
                 },
               ],
