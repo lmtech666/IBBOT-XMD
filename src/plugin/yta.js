@@ -77,13 +77,13 @@ const song = async (m, Matrix) => {
             },
             interactiveMessage: proto.Message.InteractiveMessage.create({
               body: proto.Message.InteractiveMessage.Body.create({
-                text: `HANSAMAL Video Downloader\n\n🔍 Download audio or video with a single click.\n\n`
+                text: `lBBOT-XMD Video Downloader\n\n🔍 Download audio or video with a single click.\n\n`
               }),
               footer: proto.Message.InteractiveMessage.Footer.create({
-                text: "© Powered By HANSAMAL-MD"
+                text: "© Powered By lBBOT-XMD"
               }),
               header: proto.Message.InteractiveMessage.Header.create({
-                ...(await prepareWAMessageMedia({ image: { url: `https://imgtr.ee/images/2024/09/14/a36fb8cf045cdde562f56c49470c037e.jpeg` } }, { upload: Matrix.waUploadToServer })),
+                ...(await prepareWAMessageMedia({ image: { url: `https://files.catbox.moe/4c1x3e.png` } }, { upload: Matrix.waUploadToServer })),
                 title: ``,
                 gifPlayback: true,
                 subtitle: "",
